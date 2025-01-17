@@ -59,7 +59,7 @@ for p in supplier_sorted:
 
 mycursor.execute("select * from suppliers2 where salary between 50000 AND 60000")
 supplier_salary_range= mycursor.fetchall()
-print("\nPlayers with score between 70 and 90:")
+print("\nsuppliers with salary between 50000 and 60000:")
 for a in supplier_salary_range:
     print(a)
 
